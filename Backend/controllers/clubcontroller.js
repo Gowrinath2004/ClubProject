@@ -1,5 +1,5 @@
-const User = require("models/user");
-const ClubApplication = require("models/clubapplication");
+const User = require("../models/User");
+const ClubApplication = require("../models/ClubApplication");
 const bcrypt = require("bcryptjs");
 
 // ---------------------- LOGIN ----------------------

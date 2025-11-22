@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const connectDB = require("./configdb.js");
+const connectDB = require("./config/db");
 const clubRoutes = require("./routes/clubroutes");
 
 const app = express();
